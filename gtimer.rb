@@ -16,6 +16,9 @@ class Gtimer < Formula
     system "make"
     system "make", "install"
   end
+  test do
+    system "#{bin}/gtimer", "-v"
+  end
 end
 
 __END__
