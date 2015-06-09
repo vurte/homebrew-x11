@@ -1,5 +1,5 @@
 class Gtimer < Formula
-  desc "An application for timing how you spend your time among projects and tasks."
+  desc "An application for timing projects and tasks."
   homepage "http://www.k5n.us/gtimer.php"
   url "https://downloads.sourceforge.net/project/gtimer/2.0.0/gtimer-2.0.0.tar.gz"
   sha256 "a2dd70793a5b1b4d497be0c4429b8e8cef6910497b6af8fbdedff00764308458"
