@@ -17,7 +17,7 @@ class Gtimer < Formula
     system "make", "install"
   end
   test do
-    system "#{bin}/gtimer", "-v"
+    File.exist? "#{bin}/gtimer"
   end
 end
 
