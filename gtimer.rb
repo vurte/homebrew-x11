@@ -13,7 +13,6 @@ class Gtimer < Formula
     ENV.O1
     system "./configure", "--disable-dependency-tracking",
                           "--prefix=#{prefix}"
-                          "--with-gtk2"
     system "make"
     system "make", "install"
   end
@@ -78,5 +77,3 @@ index e2a3649..a152193 100644
 +  */
  }
  
- 
-
