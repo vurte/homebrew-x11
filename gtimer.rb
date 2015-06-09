@@ -16,7 +16,6 @@ class Gtimer < Formula
     system "make"
     system "make", "install"
   end
-
 end
 
 __END__
